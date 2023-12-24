@@ -1,0 +1,68 @@
+.home {
+  background-image: url("../../../public/images/IMG_5310.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.backgroundOverlay {
+  background: rgba(000, 000, 000, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+h1 {
+  font-size: 9rem;
+  font-weight: 100;
+  color: #d1c62a;
+}
+p {
+  font-size: 2.4rem;
+  color: white;
+  font-family: "Manrope";
+  line-height: 1.5;
+}
+.button {
+  height: 6rem;
+  width: 18rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: "ManropeBold";
+  border: 2px solid black;
+  border-radius: 1rem;
+  font-weight: 700;
+  transition: background-color 0.5s ease-in-out;
+}
+.button:hover {
+  background-color: rgba(000, 000, 000, 0.06);
+  transition: background-color 0.5s ease-in-out;
+}
+.topContent {
+  margin-bottom: 10rem;
+}
+.writing {
+  width: 50%;
+}
+
+.details h4 {
+  font-family: "Perpetua Light";
+  font-size: 3rem;
+}
+.details p {
+  color: black;
+  font-family: "Lato";
+  font-size: 2.4rem;
+  padding: 4rem 0rem;
+  line-height: 1.5;
+}
+
+.details h2 {
+  font-family: "Perpetua Light";
+  font-size: 3rem;
+  color: white;
+}

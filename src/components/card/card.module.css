@@ -1,0 +1,27 @@
+.card {
+  width: 19%;
+  height: 20rem;
+  border-radius: 3rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  flex-direction: column;
+  gap: 2rem;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  text-align: center;
+  padding: 2rem;
+}
+
+.card img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.card h3 {
+  font-family: "Manrope";
+  font-size: 2rem;
+  color: white;
+}
+.card:hover {
+  background-color: #d1c62a;
+  transition: all ease-in-out 0.5s;
+}

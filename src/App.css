@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Perpetua Light";
+  src: url("../public/fonts/PERTILI.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../public/fonts/Manrope-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ManropeBold";
+  src: url("../public/fonts/Manrope-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../public/fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Perpetua Light";
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+}
+a {
+  all: unset;
+}
+.container {
+  padding: 5rem;
+  width: 100%;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+.justify-space-btw {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.align-start {
+  display: flex;
+  align-items: start;
+}
+.align-end {
+  display: flex;
+  align-items: end;
+}
+.justify-end {
+  display: flex;
+  justify-content: flex-end;
+}

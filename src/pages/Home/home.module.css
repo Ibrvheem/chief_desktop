@@ -1,9 +1,10 @@
 .home {
-  background-image: url("../../../public/images/IMG_5310.JPG");
-  background-size: cover;
+  background-image: url("../../../public/images/IMG_7470.png");
+  background-size: contain;
   background-repeat: no-repeat;
+
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .backgroundOverlay {
   background: rgba(000, 000, 000, 0.5);
@@ -14,7 +15,7 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  z-index: -1;
+  z-index: 10;
 }
 h1 {
   font-size: 9rem;
@@ -52,17 +53,4 @@ p {
 .details h4 {
   font-family: "Perpetua Light";
   font-size: 3rem;
-}
-.details p {
-  color: black;
-  font-family: "Lato";
-  font-size: 2.4rem;
-  padding: 4rem 0rem;
-  line-height: 1.5;
-}
-
-.details h2 {
-  font-family: "Perpetua Light";
-  font-size: 3rem;
-  color: white;
 }

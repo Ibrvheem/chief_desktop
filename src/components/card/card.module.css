@@ -17,9 +17,10 @@
 }
 
 .card h3 {
-  font-family: "Manrope";
-  font-size: 2rem;
-  color: white;
+  font-family: "ManropeBold" !important;
+  font-size: 2rem !important;
+  color: white !important;
+  font-weight: 700;
 }
 .card:hover {
   background-color: #d1c62a;

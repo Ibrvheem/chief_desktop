@@ -1,22 +1,22 @@
-import React, { useState, useTransition } from "react";
-import styles from "./details.module.css";
-import Card from "../../components/card/Card";
-import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
-import { motion } from "framer-motion";
-import { cardData } from "../../local-data/cardData";
+import React, { useState, useTransition } from 'react';
+import styles from './details.module.css';
+import Card from '../../components/card/Card';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { cardData } from '../../local-data/cardData';
 
 function Details() {
   const navigate = useNavigate();
   const transition = {
-    ease: "easeInOut",
+    ease: 'easeInOut',
     duration: 0.6,
   };
 
   const { id } = useParams();
   const location = useLocation();
   const selectedCard = cardData.find((card) => card.link === `/${id}`);
-  const text = "VICE ADMIRAL EL OGALLA";
-  const words = text.split(" ");
+  const text = 'VICE ADMIRAL EI OGALLA';
+  const words = text.split(' ');
 
   const textVariants = {
     initial: {
@@ -32,7 +32,7 @@ function Details() {
   const desc = selectedCard.description;
 
   // Split the text into words
-  const descSplit = desc.split(" ");
+  const descSplit = desc.split(' ');
 
   // Variant for each letter in a word
   const letterVariants = {
@@ -45,10 +45,10 @@ function Details() {
         <div className={`${styles.textContainer} justify-space-btw`}>
           <div>
             <motion.h3>{selectedCard.title}</motion.h3>
-            <motion.p variants={textVariants} initial="initial" animate="animate" style={{ overflow: "scroll", height: "55vh" }}>
-              {" "}
-              {desc.split("").map((letter, index) => (
-                <motion.span key={index} variants={letterVariants} style={{ fontFamily: "Lato" }}>
+            <motion.p variants={textVariants} initial='initial' animate='animate' style={{ overflow: 'scroll', height: '55vh' }}>
+              {' '}
+              {desc.split('').map((letter, index) => (
+                <motion.span key={index} variants={letterVariants} style={{ fontFamily: 'Lato' }}>
                   {letter}
                 </motion.span>
               ))}
@@ -57,19 +57,19 @@ function Details() {
           <div
             className={styles.button}
             onClick={() => {
-              navigate("/");
+              navigate('/');
             }}
           >
             BACK TO HOME
           </div>
         </div>
         <div className={styles.imageContainer} style={{ backgroundImage: `url(./images/${selectedCard.image})` }}>
-          <img src="./images/logo.svg" className={styles.logo} alt="" />
+          <img src='./images/logo.svg' className={styles.logo} alt='' />
           <div className={styles.imageOverlay}></div>
-          <motion.h2 variants={textVariants} initial="initial" animate="animate" style={{ color: "white", fontSize: "6rem", fontWeight: 100, padding: "9rem 2rem" }}>
+          <motion.h2 variants={textVariants} initial='initial' animate='animate' style={{ color: 'white', fontSize: '6rem', fontWeight: 100, padding: '9rem 2rem' }}>
             {words.map((word, wordIndex) => (
               <React.Fragment key={wordIndex}>
-                {word.split("").map((letter, letterIndex) => (
+                {word.split('').map((letter, letterIndex) => (
                   <motion.span key={letterIndex} variants={letterVariants}>
                     {letter}
                   </motion.span>
@@ -77,9 +77,9 @@ function Details() {
                 {wordIndex !== words.length - 1} {/* Add a line break after each word except the last one */}
               </React.Fragment>
             ))}
-          </motion.h2>{" "}
+          </motion.h2>{' '}
           {/* <img src="./images/chief.jpg" className={styles.displayImage} /> */}
-          <div className={`${styles.bottomContent} justify-space-btw align-end`} style={{ marginLeft: "auto", width: "100%", gap: "0.1rem" }} exit={{ opacity: 0 }} transition={transition}>
+          <div className={`${styles.bottomContent} justify-space-btw align-end`} style={{ marginLeft: 'auto', width: '100%', gap: '0.1rem' }} exit={{ opacity: 0 }} transition={transition}>
             {cardData.map((data) => {
               return (
                 <Card

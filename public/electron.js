@@ -14,6 +14,7 @@ const createWindow = () => {
       nodeIntegration: true,
     },
     fullscreen: true,
+    autoHideMenuBar: true,
   });
 
   mainWindow.maximize();

@@ -64,12 +64,21 @@ img.logo {
   color: white;
   margin-bottom: 2rem;
 }
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.details p::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Customize scrollbar appearance for Firefox */
+
 .details p {
   color: white;
   font-family: "Lato";
   font-size: 2.4rem;
   padding: 4rem 0rem;
   line-height: 1.5;
+  scrollbar-width: none; /* Firefox */
+
 }
 
 .button {

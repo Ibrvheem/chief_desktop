@@ -54,6 +54,13 @@ function Home() {
               “A highly motivated professional naval force capable of shaping the security outcomes within Nigeria’s maritime domain and the littorals including land-based engagements in fulfilment of
               Nigeria’s national interest.”{" "}
             </p>
+            <br />
+            <br />
+            <p>
+              <b>Philosophy</b> <br />
+              “A highly motivated professional naval force capable of shaping the security outcomes within Nigeria’s maritime domain and the littorals including land-based engagements in fulfilment of
+              Nigeria’s national interest.”{" "}
+            </p>
           </motion.div>
           <img src="./images/logo.svg" alt="" />
         </div>

@@ -31,7 +31,7 @@ export const cardData = [
     icon: "connections.svg",
     link: "/professional",
     image: "F0H3sroWwAIkWjC.jpeg",
-    title: "PROFESSIONAL AFFILAITIONS OF THE CHIEF OF NAVAL STAFF",
+    title: "PROFESSIONAL AFFILIA CFTIONS OF THE CHIEF OF NAVAL STAFF",
     description:
       "Vice Admiral Emmanuel Ikechukwu Ogalla's professional journey exemplifies a profound commitment to the Nigerian Navy and the advancement of naval operations, education, and strategic studies. Throughout his illustrious career, he has held diverse roles, demonstrating exemplary leadership, and contributing significantly to various facets of the Nigerian Navy. From his service on multiple ships to his pivotal roles at the Nigerian Navy Hydrographic School and the Nigerian Navy Hydrographic Office, Vice Admiral Ogalla has consistently displayed unparalleled dedication and expertise. He facilitated collaborations with esteemed international organizations, contributing to advancements in survey equipment and aligning educational curricula with global standards. Moreover, his strategic contributions at the Armed Forces Command and Staff College and the National Defence College have significantly enhanced research capabilities and fostered international relations, exemplifying his commitment to continuous improvement and excellence in the field.",
   },

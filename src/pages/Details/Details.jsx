@@ -5,6 +5,16 @@ import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { cardData } from '../../local-data/cardData';
 
+// Swiper imports
+import "@splidejs/react-splide/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+import { EffectCoverflow } from "swiper/modules";
+
 function Details() {
   const navigate = useNavigate();
   const transition = {
@@ -63,6 +73,58 @@ function Details() {
             BACK TO HOME
           </div>
         </div>
+        {
+          selectedCard.name == "GALLERY" ?
+          // Gallery Field
+          <div style={{ display: "flex", alignItems: "center",}}>
+          <motion.div
+              style={{ width: "80%", marginLeft: "4.5em" }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1, ease: "easeIn" }}
+            >
+              <div
+                className="splide_div"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  width: "73vw",
+                  justifyContent: "center",
+                }}
+              >
+
+            <Swiper
+                    effect={"coverflow"}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={"auto"}
+                    coverflowEffect={{
+                      rotate: 0,
+                      stretch: 0,
+                      depth: 100,
+                      modifier: 1,
+                    }}
+                    spaceBetween={0}
+                    modules={[EffectCoverflow]}
+                    className="mySwiper"
+                    style={{ width:"80vw"}}
+                  >
+                    {
+                      Array.apply(null, Array(61)).map((_, index) =>{
+                        // alert('Was here')
+                        return <SwiperSlide style={{ width:"auto"}} >
+                        <img src={`images/CNS${index+1}.png`} alt="gallery" style={{ width: "auto", height: "500px"}} />
+                        </SwiperSlide>
+                      } 
+                    )
+                    }
+                    
+                  </Swiper>
+          </div>
+            </motion.div>
+        </div> :
+        // Other Fields
         <div className={styles.imageContainer} style={{ backgroundImage: `url(./images/${selectedCard.image})` }}>
           <img src='./images/logo.svg' className={styles.logo} alt='' />
           <div className={styles.imageOverlay}></div>
@@ -95,6 +157,7 @@ function Details() {
             })}
           </div>
         </div>
+        }
       </div>
     </motion.div>
   );

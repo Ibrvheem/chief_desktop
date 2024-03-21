@@ -44,440 +44,438 @@ export const cardData = [
     description:
       "Vice Admiral Emmanuel Ikechukwu Ogalla's outstanding contributions and unwavering dedication have been recognized and honored with the most prestigious accolades. His exemplary service to the Nigerian Navy has been distinguished with the Forces Service Star (FSS), Meritorious Service Star (MSS), Distinguished Service Star (DSS), and Grand Service Star (GSS). These honors stand as a testament to his exceptional leadership, meritorious service, and remarkable contributions to the naval and defense sectors. Vice Admiral Ogalla's decorated career epitomizes the epitome of dedication, expertise, and relentless commitment to the enhancement of Nigeria's naval capabilities and strategic prowess.",
   },
-  {
-    name: "ACHIEVEMENTS",
-    icon: "connections.svg",
-    link: "/archievement",
-    image: "CNS56.png",
-    title: "ACHIEVEMENTS OF THE CHIEF",
-    description:`
-      "1. Captain (RN) Francis William SKUTIL 
+  // {
+  //   name: "ACHIEVEMENTS",
+  //   icon: "connections.svg",
+  //   link: "/archievement",
+  //   image: "CNS56.png",
+  //   title: "ACHIEVEMENTS OF THE CHIEF",
+  //   description: `
+  //     "1. Captain (RN) Francis William SKUTIL 
 
-      CHIEF OF THE NAVAL STAFF: 1956 TO 1958 
+  //     CHIEF OF THE NAVAL STAFF: 1956 TO 1958 
       
-      \n\n 
+  //     Major Achievements: 
       
-      Major Achievements: 
+  //     Establishment of the Nigerian Naval Force in 1956. 
       
-      Establishment of the Nigerian Naval Force in 1956. 
+  //     Reformed the Nigerian Maritime Training Scheme for seamen, cadets, apprentice craftsmen and engineers. 
       
-      Reformed the Nigerian Maritime Training Scheme for seamen, cadets, apprentice craftsmen and engineers. 
-      
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Courageous, hardwork and a stickler for regimentation. 
+  //     Courageous, hardwork and a stickler for regimentation. 
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Training is key to professionalism. 
+  //     Training is key to professionalism. 
       
        
       
-      2. Commodore Alexander R KENNEDY 
+  //     2. Commodore Alexander R KENNEDY 
       
        
       
-      CHIEF OF THE NAVAL STAFF: 1958 to 1964 
+  //     CHIEF OF THE NAVAL STAFF: 1958 to 1964 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Developed the Defence White Paper on the shape and size of the NN up to 1990. 
+  //     Developed the Defence White Paper on the shape and size of the NN up to 1990. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Foresight, Determination and Commitment. 
+  //     Foresight, Determination and Commitment. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Great leaders are good planners. 
+  //     Great leaders are good planners. 
       
        
       
-      3. Vice Admiral Joseph Edet Akinwale WEY  OFR, FSS 
+  //     3. Vice Admiral Joseph Edet Akinwale WEY  OFR, FSS 
       
        
       
-      CHIEF OF THE NAVAL STAFF: MARCH 1964 - 11 May 1973 
+  //     CHIEF OF THE NAVAL STAFF: MARCH 1964 - 11 May 1973 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Acquisition and commissioning of NNS NIGERIA. 
+  //     Acquisition and commissioning of NNS NIGERIA. 
       
-      Led the NN to support the Nigerian Armed Forces to victory in the Civil War. 
+  //     Led the NN to support the Nigerian Armed Forces to victory in the Civil War. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Diligence, Honesty and Determination. 
+  //     Diligence, Honesty and Determination. 
       
        
       
-      4. Rear Admiral Nelson Bossman SOROH MER, Fss, idc. 
+  //     4. Rear Admiral Nelson Bossman SOROH MER, Fss, idc. 
       
-      CHIEF OF THE NAVAL STAFF: 11 May 1973 - 29 July 1975 
+  //     CHIEF OF THE NAVAL STAFF: 11 May 1973 - 29 July 1975 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Expansion of the Navy. 
+  //     Expansion of the Navy. 
       
-      Introduction of Navy week celebrations. 
+  //     Introduction of Navy week celebrations. 
       
-      Introduction of Joint Army - Navy Exercise. 
+  //     Introduction of Joint Army - Navy Exercise. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Professionalism, Innovation, Courage, Foresight. 
+  //     Professionalism, Innovation, Courage, Foresight. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Study hard, work hard. 
+  //     Study hard, work hard. 
       
        
       
-      5. Vice Admiral Michael Ayinde ADELANWA GCON, FSS, rcds  
+  //     5. Vice Admiral Michael Ayinde ADELANWA GCON, FSS, rcds  
       
-      CHIEF OF THE NAVAL STAFF: 30 July 1975 - 14 April 1980 
+  //     CHIEF OF THE NAVAL STAFF: 30 July 1975 - 14 April 1980 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Construction of Navy Town Ojo. 
+  //     Construction of Navy Town Ojo. 
       
-      Introduced the rate of Warrant Chief Petty Officer (WCPO) 
+  //     Introduced the rate of Warrant Chief Petty Officer (WCPO) 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Determination, Firmness and Foresight. 
+  //     Determination, Firmness and Foresight. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Plan for Long Time. 
+  //     Plan for Long Time. 
       
        
       
-      6. Vice Admiral A Akin ADUWO CFR, FSS, FBIM 
+  //     6. Vice Admiral A Akin ADUWO CFR, FSS, FBIM 
       
-      CHIEF OF THE NAVAL STAFF: 16 April 1980 - 31 December 1983 
+  //     CHIEF OF THE NAVAL STAFF: 16 April 1980 - 31 December 1983 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Acquisition of capital ships (Corvettes, FAC and NNS ARADU). 
+  //     Acquisition of capital ships (Corvettes, FAC and NNS ARADU). 
       
-      Localization of Training in the Nigerian Navy. 
+  //     Localization of Training in the Nigerian Navy. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Courage, Innovation. 
+  //     Courage, Innovation. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Why not be best. 
+  //     Why not be best. 
       
        
       
-      7. Rear Admiral Augustus Akhabue AIKHOMU Fss, PSC, Mni 
+  //     7. Rear Admiral Augustus Akhabue AIKHOMU Fss, PSC, Mni 
       
-      CHIEF OF THE NAVAL STAFF: 2 January 1984 - 7 October 1986 
+  //     CHIEF OF THE NAVAL STAFF: 2 January 1984 - 7 October 1986 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Establishment of Nigerian Navy Air Arm 
+  //     Establishment of Nigerian Navy Air Arm 
       
-      Commissioning of NNS QUORRA 
+  //     Commissioning of NNS QUORRA 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Innovation, Foresight, Visionary. 
+  //     Innovation, Foresight, Visionary. 
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Nigeria will succeed. 
+  //     Nigeria will succeed. 
       
        
       
        
       
-      8. Vice Admiral Seubo KOSHONI FSS, psc, mni. 
+  //     8. Vice Admiral Seubo KOSHONI FSS, psc, mni. 
       
-      CHIEF OF THE NAVAL STAFF: 7 October 1986 - 29 December 1989 
+  //     CHIEF OF THE NAVAL STAFF: 7 October 1986 - 29 December 1989 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Articulation of Nigeria's foremost Maritime Strategy, "the Nigerian Navy Trident Strategy". 
+  //     Articulation of Nigeria's foremost Maritime Strategy, "the Nigerian Navy Trident Strategy". 
       
-      Manpower Rationalization for the Service. 
+  //     Manpower Rationalization for the Service. 
       
-      Institutionalize Presidential Fleet Review. 
+  //     Institutionalize Presidential Fleet Review. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Influence, Decisiveness and Innovation. 
+  //     Influence, Decisiveness and Innovation. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Preparedness is the key to success and victory. 
+  //     Preparedness is the key to success and victory. 
       
        
       
        
       
-      9. Vice Admiral Murtala Hamman-Yero NYAKO FSS rcds, mni 
+  //     9. Vice Admiral Murtala Hamman-Yero NYAKO FSS rcds, mni 
       
-      CHIEF OF THE NAVAL STAFF: 2 January 1990 - 7 February 1992 
+  //     CHIEF OF THE NAVAL STAFF: 2 January 1990 - 7 February 1992 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Revamping of the NN Fleet Support Group and Reintroduction of Naval Culture of Professionalism in the Fleet. 
+  //     Revamping of the NN Fleet Support Group and Reintroduction of Naval Culture of Professionalism in the Fleet. 
       
-      Acquisition of Ex-Witt and Busch Ship Repair Yard in Port Harcourt now Naval Shipyard Limited. 
+  //     Acquisition of Ex-Witt and Busch Ship Repair Yard in Port Harcourt now Naval Shipyard Limited. 
       
-      Commissioning of Naval Dockyard Limited in Lagos. 
+  //     Commissioning of Naval Dockyard Limited in Lagos. 
       
-      Introduction of the 'Corps' concept of Management in the Nigerian Navy. 
+  //     Introduction of the 'Corps' concept of Management in the Nigerian Navy. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Foresight, Professionalism and Innovation. 
+  //     Foresight, Professionalism and Innovation. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      There are no office hours for Leaders. 
+  //     There are no office hours for Leaders. 
       
        
       
-      10. Vice Admiral Dan Preston OMATSOLA FSS, DSO, psc, rcds. 
+  //     10. Vice Admiral Dan Preston OMATSOLA FSS, DSO, psc, rcds. 
       
-      CHIEF OF THE NAVAL STAFF: 7 February 1992 - 17 September 1993 
+  //     CHIEF OF THE NAVAL STAFF: 7 February 1992 - 17 September 1993 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Enhanced fleet availability. 
+  //     Enhanced fleet availability. 
       
-      Advocated the Long Range Sustainable Planning (5 - 10 years) 
+  //     Advocated the Long Range Sustainable Planning (5 - 10 years) 
       
        
       
-      Leadership Qualities  
+  //     Leadership Qualities  
       
-      COURAGE, RESPECT and EMPATHY  
+  //     COURAGE, RESPECT and EMPATHY  
       
-      . 
+  //     . 
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Success is no accident. 
+  //     Success is no accident. 
       
        
       
-      11. Rear Admiral Sulaiman Sa’idu FSS, LSS, MSS, DSS, rcds, CFR. 
+  //     11. Rear Admiral Sulaiman Sa’idu FSS, LSS, MSS, DSS, rcds, CFR. 
       
-      CHIEF OF THE NAVAL STAFF: 17 September 1993 - 24 November 1993 
+  //     CHIEF OF THE NAVAL STAFF: 17 September 1993 - 24 November 1993 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Upholding of Naval Customs and Tradition. 
+  //     Upholding of Naval Customs and Tradition. 
       
-      Promoting of Local Training. 
+  //     Promoting of Local Training. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Determination and Professionalism. 
+  //     Determination and Professionalism. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Keep your fears to yourself, but share your courage with others. 
+  //     Keep your fears to yourself, but share your courage with others. 
       
        
       
-      12. Rear Admiral Allison Amaechina MADUEKE FSS, DSS, MRIN, mni 
+  //     12. Rear Admiral Allison Amaechina MADUEKE FSS, DSS, MRIN, mni 
       
-      CHIEF OF THE NAVAL STAFF: 24 November 1993 - 22 August 1994 
+  //     CHIEF OF THE NAVAL STAFF: 24 November 1993 - 22 August 1994 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Improved personnel welfare 
+  //     Improved personnel welfare 
       
-      Promotion of infrastructural Development. 
+  //     Promotion of infrastructural Development. 
       
        
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Honesty, Courage and Tact. 
+  //     Honesty, Courage and Tact. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Your assignment has a shelf life 
+  //     Your assignment has a shelf life 
       
        
       
-      13. Vice Admiral Okhai Michael AKHIGBE FSS MSS DSS psc+ mni 
+  //     13. Vice Admiral Okhai Michael AKHIGBE FSS MSS DSS psc+ mni 
       
-      CHIEF OF THE NAVAL STAFF: 22 August 1994 - 13 July 1998 
+  //     CHIEF OF THE NAVAL STAFF: 22 August 1994 - 13 July 1998 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Promoted Regimentation and Sound Military Ethnics in the NN. 
+  //     Promoted Regimentation and Sound Military Ethnics in the NN. 
       
-      Created the new naval formations  
+  //     Created the new naval formations  
       
-      Championed career progression and personal development of officers and men.  
+  //     Championed career progression and personal development of officers and men.  
       
        
       
-      Leadership Qualities  
+  //     Leadership Qualities  
       
-      Discipline, Hard-work and Courage. 
+  //     Discipline, Hard-work and Courage. 
       
        
       
-      Leadership Thoughts 
+  //     Leadership Thoughts 
       
-      Undiluted Patriotism. 
+  //     Undiluted Patriotism. 
       
        
       
-      14. Vice Admiral Jubrila Olukoya Ayinla DSS psc+ USNWC fwc GCON 
+  //     14. Vice Admiral Jubrila Olukoya Ayinla DSS psc+ USNWC fwc GCON 
       
-      CHIEF OF THE NAVAL STAFF: 13 July 1998 - 29 May 1999 
+  //     CHIEF OF THE NAVAL STAFF: 13 July 1998 - 29 May 1999 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Sailed the NN Flag Ship NSS RUWAN YARO for Flag Show Visit in South America for the first time. 
+  //     Sailed the NN Flag Ship NSS RUWAN YARO for Flag Show Visit in South America for the first time. 
       
-      Ship Acquisition. 
+  //     Ship Acquisition. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Professionalism, Innovation and Influence. 
+  //     Professionalism, Innovation and Influence. 
       
        
       
-      Leadership Thoughts 
+  //     Leadership Thoughts 
       
-      Loyalty at all times. 
+  //     Loyalty at all times. 
       
        
       
-      15. Vice Admiral Victor K OMBU CFR, mni 
+  //     15. Vice Admiral Victor K OMBU CFR, mni 
       
-      CHIEF OF THE NAVAL STAFF: 29 May 1999 - 24 April 2001 
+  //     CHIEF OF THE NAVAL STAFF: 29 May 1999 - 24 April 2001 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Improved Personnel Welfare. 
+  //     Improved Personnel Welfare. 
       
-      Manpower Development. 
+  //     Manpower Development. 
       
-      Encouraged Professionalism. 
+  //     Encouraged Professionalism. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Discipline, Hardwork and Professionalism. 
+  //     Discipline, Hardwork and Professionalism. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Empathy. 
+  //     Empathy. 
       
        
       
-      16. Vice Admiral Samuel Olajide AFOLAYAN CFR DSS psc(+) fwc  
+  //     16. Vice Admiral Samuel Olajide AFOLAYAN CFR DSS psc(+) fwc  
       
-      CHIEF OF THE NAVAL STAFF: 24 April 2001 to 20 July 2005 
+  //     CHIEF OF THE NAVAL STAFF: 24 April 2001 to 20 July 2005 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Projection of the NN as sub-regional maritime power. 
+  //     Projection of the NN as sub-regional maritime power. 
       
-      Indigenous fleet refit programmes.  
+  //     Indigenous fleet refit programmes.  
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Intellectual agility, honesty and Discipline. 
+  //     Intellectual agility, honesty and Discipline. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Sub-regional maritime dominance, operational readiness and local refit. 
+  //     Sub-regional maritime dominance, operational readiness and local refit. 
       
        
       
-      17. Vice Admiral Ganiyu Tunde Adegboyega ADEKEYE CFR DSS psc(+) mni mirss  
+  //     17. Vice Admiral Ganiyu Tunde Adegboyega ADEKEYE CFR DSS psc(+) mni mirss  
       
-      CHIEF OF THE NAVAL STAFF: 20 July 2005 to 20 August 2008 
+  //     CHIEF OF THE NAVAL STAFF: 20 July 2005 to 20 August 2008 
       
        
       
@@ -485,199 +483,199 @@ export const cardData = [
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Expansion of NN force structure through the creation of SBS, Command and FOB,  
+  //     Expansion of NN force structure through the creation of SBS, Command and FOB,  
       
-      Conceptualized the indigenous construction of the Seaward Defense Boat 
+  //     Conceptualized the indigenous construction of the Seaward Defense Boat 
       
-      Initiated the establishment of the Directorate of Research and Development in the NN. 
+  //     Initiated the establishment of the Directorate of Research and Development in the NN. 
       
        
       
-      Leadership Qualities  
+  //     Leadership Qualities  
       
-      Foresight, Determination, and Astuteness. 
+  //     Foresight, Determination, and Astuteness. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Professionalism is centered on capacity development, discipline and creativity. 
+  //     Professionalism is centered on capacity development, discipline and creativity. 
       
        
       
-      18. Vice Admiral Ishaya Iko IBRAHIM CFR GSS psc fwc 
+  //     18. Vice Admiral Ishaya Iko IBRAHIM CFR GSS psc fwc 
       
-      CHIEF OF THE NAVAL STAFF: 20 August 2008 to 8 September 2010 
+  //     CHIEF OF THE NAVAL STAFF: 20 August 2008 to 8 September 2010 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      A silent achiever. Pioneered the expansion of NN training institutions to the hinterland and establishment of NNSAT-Kachia. 
+  //     A silent achiever. Pioneered the expansion of NN training institutions to the hinterland and establishment of NNSAT-Kachia. 
       
-      Development of massive personnel-oriented welfare programmes. 
+  //     Development of massive personnel-oriented welfare programmes. 
       
-      Pioneered the NN Post-Service Housing Scheme 
+  //     Pioneered the NN Post-Service Housing Scheme 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Integrity, empathy and mental flexibility. 
+  //     Integrity, empathy and mental flexibility. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Empathy is central to good leadership. 
+  //     Empathy is central to good leadership. 
       
        
       
-      19. Admiral Ola Sa’ad Ibrahim CFR, DSS, psc, rcds, fwc(+) LLB (Hons) MA 
+  //     19. Admiral Ola Sa’ad Ibrahim CFR, DSS, psc, rcds, fwc(+) LLB (Hons) MA 
       
-      CHIEF OF THE NAVAL STAFF: 8 September 2010 to 4 October 2012 
+  //     CHIEF OF THE NAVAL STAFF: 8 September 2010 to 4 October 2012 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Promulgated the NN-Total Spectrum Maritime Strategy. 
+  //     Promulgated the NN-Total Spectrum Maritime Strategy. 
       
-      Established the Central Naval Command. 
+  //     Established the Central Naval Command. 
       
-      Facilitated indigenous shipbuilding and commissioned NNS ANDONE. 
+  //     Facilitated indigenous shipbuilding and commissioned NNS ANDONE. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      High emotional intelligence, passion for training and dedication to service. 
+  //     High emotional intelligence, passion for training and dedication to service. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Transformation of the NN, mentorship and professionalism. 
+  //     Transformation of the NN, mentorship and professionalism. 
       
        
       
        
       
-      20. Vice Admiral Dele Joseph EZEOBA GSS psc(+) fwc MSC MRIN FCIS 
+  //     20. Vice Admiral Dele Joseph EZEOBA GSS psc(+) fwc MSC MRIN FCIS 
       
-      CHIEF OF THE NAVAL STAFF: 4 October 2012 to 16 January 2014 
+  //     CHIEF OF THE NAVAL STAFF: 4 October 2012 to 16 January 2014 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Promulgation of the first NN Strategic guidance. 
+  //     Promulgation of the first NN Strategic guidance. 
       
-      Introduction of instructor’s and Sea-going Allowances in the NN 
+  //     Introduction of instructor’s and Sea-going Allowances in the NN 
       
-      Conceptualized the Admiralty University of Nigeria, Ibuza.  
+  //     Conceptualized the Admiralty University of Nigeria, Ibuza.  
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Foresight, determination, and diligence. 
+  //     Foresight, determination, and diligence. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Accountability breeds responsibility. 
+  //     Accountability breeds responsibility. 
       
        
       
-      21. Vice Admiral Usman Oyibe JIBRIN GSS AM psc (+) mni LLB PGCPA 
+  //     21. Vice Admiral Usman Oyibe JIBRIN GSS AM psc (+) mni LLB PGCPA 
       
-      Chief Of The Naval Staff: 16 January 2014 to 13 July 2015 
+  //     Chief Of The Naval Staff: 16 January 2014 to 13 July 2015 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Establishment of the Naval Transformation Branch and Safety and Standards Branch for improved service delivery. 
+  //     Establishment of the Naval Transformation Branch and Safety and Standards Branch for improved service delivery. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Humility, empathy and dedication to service. 
+  //     Humility, empathy and dedication to service. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Always do more than is required of you. 
+  //     Always do more than is required of you. 
       
        
       
-      22. Vice Admiral Ibok-Ete Ekwe IBAS GSS AM psc (+) ndc MSc 
+  //     22. Vice Admiral Ibok-Ete Ekwe IBAS GSS AM psc (+) ndc MSc 
       
-      Chief Of The Naval Staff: 13 July 2015 to 26 January 2021 
+  //     Chief Of The Naval Staff: 13 July 2015 to 26 January 2021 
       
        
       
-      Major Achievements: 
+  //     Major Achievements: 
       
-      Infrastructural developments across NN bases, establishments, units and barracks. 
+  //     Infrastructural developments across NN bases, establishments, units and barracks. 
       
-      Introduction of the NN-Chokepoint management and control regimen in the backwaters. 
+  //     Introduction of the NN-Chokepoint management and control regimen in the backwaters. 
       
-      Establishment of the prestigious Naval war College, Nigeria. 
+  //     Establishment of the prestigious Naval war College, Nigeria. 
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Firmness, Diligence and professionalism. 
+  //     Firmness, Diligence and professionalism. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      Discipline is the bridge between goal and accomplishment. 
+  //     Discipline is the bridge between goal and accomplishment. 
       
        
       
-      23. Vice Admiral Auwal Zubairu Gambo CFR AM GSS psc ensp (RSA) MTM FNIM LMUSNI FCIS FIIPS FCAI 
+  //     23. Vice Admiral Auwal Zubairu Gambo CFR AM GSS psc ensp (RSA) MTM FNIM LMUSNI FCIS FIIPS FCAI 
       
        
       
-      Chief Of The Naval Staff: 26 January 2021 to 23 June 2023 
+  //     Chief Of The Naval Staff: 26 January 2021 to 23 June 2023 
       
        
       
-      Major Achievements:  
+  //     Major Achievements:  
       
-      Aggressive fleet recapitalization and infrastructural development in the NN. 
+  //     Aggressive fleet recapitalization and infrastructural development in the NN. 
       
-      Expansion of NN force structure with the establishment of Naval Doctrine Command, Naval Outpost SHAGUNU, and Naval Outpost MFUN. Establishment of Naval Base EPE, Naval Base OGUTA, FOB LEKKI and NNLC (Kano). He also actualized the relocation of NNCET from NNS QUORRA to Ife Osun State. 
+  //     Expansion of NN force structure with the establishment of Naval Doctrine Command, Naval Outpost SHAGUNU, and Naval Outpost MFUN. Establishment of Naval Base EPE, Naval Base OGUTA, FOB LEKKI and NNLC (Kano). He also actualized the relocation of NNCET from NNS QUORRA to Ife Osun State. 
       
-       Aggressive commitment to the eradication of and other criminal  
+  //      Aggressive commitment to the eradication of and other criminal  
       
-      Activities within the nation’s maritime environment. This led to marked decline in piracy in Nigeria’s maritime domain and the Gulf of Guinea in general. This led to the delisting of Nigeria from the list of piracy prone regions globally. 
+  //     Activities within the nation’s maritime environment. This led to marked decline in piracy in Nigeria’s maritime domain and the Gulf of Guinea in general. This led to the delisting of Nigeria from the list of piracy prone regions globally. 
       
        
       
        
       
-      Leadership Qualities: 
+  //     Leadership Qualities: 
       
-      Empathy, fairness, discipline and dedication to service. 
+  //     Empathy, fairness, discipline and dedication to service. 
       
        
       
-      Leadership Thoughts: 
+  //     Leadership Thoughts: 
       
-      "It is our Navy; all hands must be on deck to propel the NN to greater heights." This mantra aroused a strong sense of common purpose and high morale in NN. ",
-      `
-    },
+  //     "It is our Navy; all hands must be on deck to propel the NN to greater heights." This mantra aroused a strong sense of common purpose and high morale in NN. ",
+  //     `
+  //   },
   {
     name: "GALLERY",
     icon: "gallery.svg",

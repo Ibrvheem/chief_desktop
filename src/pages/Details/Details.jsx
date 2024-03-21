@@ -39,10 +39,13 @@ function Details() {
     },
   };
 
-  const desc = selectedCard.description;
+  const desc = selectedCard.link == "/chiefs" ? "" : selectedCard.description;
+
+  const [currentIndex, setCurrentIndex] = useState(0)
+
 
   // Split the text into words
-  const descSplit = desc.split(' ');
+  // const descSplit = desc.split(' ');
 
   // Variant for each letter in a word
   const letterVariants = {
@@ -53,7 +56,38 @@ function Details() {
     <motion.div className={styles.details}>
       <div className={styles.container}>
         <div className={`${styles.textContainer} justify-space-btw`}>
-          <div>
+
+          {
+            selectedCard.link == '/chiefs'?
+            <div>
+              {/* <motion.h3>{selectedCard.title}</motion.h3>
+            <motion.p variants={textVariants} initial='initial' animate='animate' style={{ overflow: 'scroll', height: '55vh' }}>
+              {' '}
+              {desc.split('').map((letter, index) => (
+                <motion.span key={index} variants={letterVariants} style={{ fontFamily: 'Lato' }}>
+                  {letter}
+                </motion.span>
+              ))}
+            </motion.p> */}
+            <motion.h3>{selectedCard.description[currentIndex].name}</motion.h3>
+            <p style={{color:'white', fontSize: 15, paddingTop: 0, color: "gold"}}>{selectedCard.description[currentIndex].year}</p>
+            <p style={{color:'white', fontSize: 19, paddingBottom: 5, color: "gold"}}>Achievements:</p>
+            <div style={{ listStyleType: "upper-roman"}}>
+            { 
+              selectedCard.description[currentIndex].achievements.map((item, index)=>
+              <p style={{color:'white', fontSize: 19, padding: 0}}>{index+1} - {item}</p>
+              )
+            } 
+            </div>
+           
+            <p style={{color:'white', fontSize: 19, paddingBottom: 0, color: "gold"}}>Leadership:</p>
+            <p style={{color:'white', fontSize: 19, paddingTop: 0, paddingBottom: 0}}>{selectedCard.description[currentIndex].qualities}</p>
+            <p style={{color:'white', fontSize: 19, paddingBottom: 0, color: "gold"}}>Thoughts:</p>
+            <p style={{color:'white', fontSize: 19, paddingTop: 0}}>{selectedCard.description[currentIndex].thoughts}</p>
+            </div>
+            :
+            <div>
+            {/* Text container begins */}
             <motion.h3>{selectedCard.title}</motion.h3>
             <motion.p variants={textVariants} initial='initial' animate='animate' style={{ overflow: 'scroll', height: '55vh' }}>
               {' '}
@@ -64,6 +98,8 @@ function Details() {
               ))}
             </motion.p>
           </div>
+          // End of Text
+          }
           <div
             className={styles.button}
             onClick={() => {
@@ -74,7 +110,67 @@ function Details() {
           </div>
         </div>
         {
-          selectedCard.name == "GALLERY" ?
+          selectedCard.link == "/chiefs" ?
+          <div style={{ display: "flex", alignItems: "center",}}>
+          <motion.div
+              style={{ width: "80%", marginLeft: "4.5em" }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1, ease: "easeIn" }}
+            >
+              <div
+                className="splide_div"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  width: "73vw",
+                  justifyContent: "center",
+                }}
+              >
+
+            <Swiper
+                    effect={"coverflow"}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={"auto"}
+                    coverflowEffect={{
+                      rotate: 0,
+                      stretch: 0,
+                      depth: 100,
+                      modifier: 1,
+                    }}
+                    spaceBetween={0}
+                    modules={[EffectCoverflow]}
+                    className="mySwiper"
+                    style={{ width:"80vw"}}
+                    onSlideChange={(swiperCore) => {
+                      const {
+                        activeIndex,
+                        snapIndex,
+                        previousIndex,
+                        realIndex,
+                      } = swiperCore;
+                      setCurrentIndex(activeIndex);
+                    }}
+                  >
+                    {
+                      selectedCard.description.map((_, index) =>{
+                        // alert(`images/past${index}.png`)
+                        return <SwiperSlide style={{ width:"auto"}} >
+                        <img src={`images/past/${index}.png`} alt="gallery" style={{ width: "auto", height: "500px"}} />
+                        </SwiperSlide>
+                      } 
+                    )
+                    }
+                    
+                  </Swiper>
+          </div>
+            </motion.div>
+        </div>
+          
+          :
+          selectedCard.link == "/gallery" ?
           // Gallery Field
           <div style={{ display: "flex", alignItems: "center",}}>
           <motion.div

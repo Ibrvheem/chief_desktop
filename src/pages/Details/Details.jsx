@@ -84,6 +84,21 @@ function Details() {
             <p style={{color:'white', fontSize: 19, paddingTop: 0, paddingBottom: 0}}>{selectedCard.description[currentIndex].qualities}</p>
             <p style={{color:'white', fontSize: 19, paddingBottom: 0, color: "gold"}}>Thoughts:</p>
             <p style={{color:'white', fontSize: 19, paddingTop: 0}}>{selectedCard.description[currentIndex].thoughts}</p>
+            <div className={`${styles.bottomContent} justify-space-btw align-end`} style={{ marginLeft: 'auto', width: '75%', gap: '0.1rem', position: "absolute", right: "3%", bottom: "1%" }} exit={{ opacity: 0 }} transition={transition}>
+            {cardData.map((data) => {
+              return (
+                <Card
+                  path={location.pathname}
+                  link={`/details${data.link}`}
+                  image={data.icon}
+                  text={data.name}
+                  handleClick={() => {
+                    navigate(`/details${data.link}`);
+                  }}
+                />
+              );
+            })}
+          </div>
             </div>
             :
             <div>
@@ -108,6 +123,7 @@ function Details() {
           >
             BACK TO HOME
           </div>
+          
         </div>
         {
           selectedCard.link == "/chiefs" ?
@@ -219,6 +235,22 @@ function Details() {
                   </Swiper>
           </div>
             </motion.div>
+            <div className={`${styles.bottomContent} justify-space-btw align-end`} style={{ marginLeft: 'auto', width: '75%', gap: '0.1rem', position: "absolute", right: "3%", bottom: "1%" }} exit={{ opacity: 0 }} transition={transition}>
+            {cardData.map((data) => {
+              return (
+                <Card
+                  path={location.pathname}
+                  link={`/details${data.link}`}
+                  image={data.icon}
+                  text={data.name}
+                  handleClick={() => {
+                    navigate(`/details${data.link}`);
+                  }}
+                />
+              );
+            })}
+          </div>
+        {/* </div> */}
         </div> :
         // Other Fields
         <div className={styles.imageContainer} style={{ backgroundImage: `url(./images/${selectedCard.image})` }}>
